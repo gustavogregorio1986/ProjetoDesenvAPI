@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoDesenvAPI.Data.Repositorio.Interface
+namespace ProjetoDesenvAPI.Servico.Servico.Interface
 {
-    public interface IOcorrenciaRepository
+    public interface IOcorrenciaServico
     {
         void Salvar(Ocorrencia ocorrencia);
 
@@ -17,6 +17,6 @@ namespace ProjetoDesenvAPI.Data.Repositorio.Interface
 
         void Deletar(int IdOcorrencia);
 
-        Ocorrencia OcorrenciaById(int IdOcorrencia);
+        Endereco OcorrenciaById(int IdOcorrencia);
     }
 }

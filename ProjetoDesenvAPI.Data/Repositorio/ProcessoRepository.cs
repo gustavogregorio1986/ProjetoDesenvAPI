@@ -1,5 +1,6 @@
 ﻿using ProjetoDesenvAPI.Data.Contexto;
 using ProjetoDesenvAPI.Data.Repositorio.Interface;
+using ProjetoDesenvAPI.Data.Servico.Interface;
 using ProjetoDesenvAPI.Dominio.Dominio;
 using System;
 using System.Collections.Generic;

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoDesenvAPI.Data.Servico.Interface
+namespace ProjetoDesenvAPI.Servico.Servico.Interface
 {
-    public interface IProcessoRepository
+    public interface IProcessoServico
     {
         void Salvar(Processo processo);
 
