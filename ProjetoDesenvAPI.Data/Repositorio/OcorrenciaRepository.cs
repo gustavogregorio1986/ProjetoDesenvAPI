@@ -23,9 +23,9 @@ namespace ProjetoDesenvAPI.Data.Repositorio
             return _db.Ocorrencias.Where(x => x.IdOcorrencia == IdOcorencia).ToList();
         }
 
-        public Endereco OcorrenciaById(int IdOcorrencia)
+        public Ocorrencia OcorrenciaById(int IdOcorrencia)
         {
-            return _db.Set<Endereco>().Find(IdOcorrencia);
+            return _db.Set<Ocorrencia>().Find(IdOcorrencia);
         }
 
         public void Salvar(Ocorrencia ocorrencia)
